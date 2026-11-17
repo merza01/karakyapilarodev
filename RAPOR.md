@@ -9,8 +9,8 @@ Her soru için en az 2 test yazın.
 
 | Girdi | Beklenen çıktı | Programın çıktısı |
 |---|---|---|
-| | | |
-| | | |
+|5 |1,2,3,4,5 |1 2 3 4 5 |
+|9 |1 2 3 4 5 6 7 8 9 |1 2 3 4 5 6 7 8 9  |
 
 ## Soru 2: Çift ve Tek Sayıların Toplamı
 
