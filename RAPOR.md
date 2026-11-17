@@ -23,27 +23,7 @@ Her soru için en az 2 test yazın.
 
 | Girdi | Beklenen çıktı | Programın çıktısı |
 |---|---|---|
-|10 |Carpim tablosu:
-1x10=10
-2x10=20
-3x10=30
-4x10=40
-5x10=50
-6x10=60
-7x10=70
-8x10=80
-9x10=90
-10x10=100 |Carpim tablosu:
-1x10=10
-2x10=20
-3x10=30
-4x10=40
-5x10=50
-6x10=60
-7x10=70
-8x10=80
-9x10=90
-10x10=100 |
+|10 |10 20 30 40 50 60 70 80 90 100 |10 20 30 40 50 60 70 80 90 100 |
 |-9 |Girdiginiz sayi 1 den fazla olmalıdır |Girdiginiz sayi 1 den fazla olmalıdır |
 
 ## Soru 4: Faktöriyel Hesaplama
