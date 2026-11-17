@@ -16,8 +16,8 @@ Her soru için en az 2 test yazın.
 
 | Girdi | Beklenen çıktı | Programın çıktısı |
 |---|---|---|
-| | | |
-| | | |
+|10 |cift sayilarin toplami=20 tek sayilarinki=24 |1 ile N arasindaki Tek sayilarin toplami: 24 Cift sayilarin toplami:20 |
+| 4.6 |Girdiginiz sayi tam sayi olmalidir |Girdiginiz sayi tam sayi olmalidir |
 
 ## Soru 3: Çarpım Tablosu
 
