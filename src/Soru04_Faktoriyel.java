@@ -15,7 +15,7 @@ public class Soru04_Faktoriyel {
         int faktoryel=1;
         if (sayi<0) {System.out.println("Negatif sayilarin faktoryeli bulunmaz");}
         
-        else if (sayi==0) { faktoryel=1;}
+
         
         else {
         while (i<=sayi) { faktoryel=faktoryel*i;
