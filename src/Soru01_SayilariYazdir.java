@@ -4,15 +4,20 @@ import java.util.Scanner;
 public class Soru01_SayilariYazdir {
 
     public static void main(String[] args) {
-        Scanner scanner = new Scanner(System.in);
+        Scanner sc = new Scanner(System.in);
 
-        // TODO: Girdileri alın
-
-        // TODO: Girdileri kontrol edin (hatalı giriş / sınır durumları)
-
-        // TODO: Karar yapısını ve/veya döngüyü yazın
-
-        // TODO: Sonucu ekrana yazdırın
+        System.out.println("Bir sayi giriniz");  
+        int sayi=sc.nextInt();
+        int i=1 ;
+        if (sayi<1) { System.out.println("Lutfen 1'den buyuk bi sayi giriniz");
+            
+        }
+        else { System.out.println("Bir tam sayi giriniz");}
+        
+        while (i<=sayi) { System.out.println(i);            
+        
+        i++;   
+        }
 
         scanner.close();
     }
