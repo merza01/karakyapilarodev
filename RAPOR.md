@@ -30,8 +30,8 @@ Her soru için en az 2 test yazın.
 
 | Girdi | Beklenen çıktı | Programın çıktısı |
 |---|---|---|
-| | | |
-| | | |
+|5 |120 |120 |
+|0 |1 |1 |
 
 ## Soru 5: Sayının Basamaklarını Bulma
 
