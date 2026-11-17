@@ -4,15 +4,25 @@ import java.util.Scanner;
 public class Soru04_Faktoriyel {
 
     public static void main(String[] args) {
-        Scanner scanner = new Scanner(System.in);
+        Scanner sc = new Scanner(System.in);
 
-        // TODO: Girdileri alın
-
-        // TODO: Girdileri kontrol edin (hatalı giriş / sınır durumları)
-
-        // TODO: Karar yapısını ve/veya döngüyü yazın
-
-        // TODO: Sonucu ekrana yazdırın
+        
+        System.out.println(" Faktoryeli hesaplanacak sayiyi giriniz:");
+        if (!sc.hasNextInt()) { System.out.println("Girdiginiz sayi tam sayi olmalidir");
+        return;}
+        int sayi=sc.nextInt();
+        int i=1;
+        int faktoryel=1;
+        if (sayi<0) {System.out.println("Negatif sayilarin faktoryeli bulunmaz");}
+        
+        else if (sayi==0) { faktoryel=1;}
+        
+        else {
+        while (i<=sayi) { faktoryel=faktoryel*i;
+        i++;
+            
+        }
+        System.out.println("Girdiginiz sayinin faktoryeli="+ faktoryel);}
 
         scanner.close();
     }
