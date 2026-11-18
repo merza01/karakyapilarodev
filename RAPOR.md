@@ -51,22 +51,22 @@ Her soru için en az 2 test yazın.
 
 | Girdi | Beklenen çıktı | Programın çıktısı |
 |---|---|---|
-| | | |
-| | | |
+|1 |asal degil |asal degil |
+|13 |asaldir |asaldir |
 
 ## Soru 8: Tahmin Oyunu
 
 | Girdi | Beklenen çıktı | Programın çıktısı |
 |---|---|---|
-|1 |asal degil |asal degil |
-|13 |asaldir |asaldir |
+| | | |
+| | | |
 
 ## Soru 9: Sayıların Ortalaması
 
 | Girdi | Beklenen çıktı | Programın çıktısı |
 |---|---|---|
-| | | |
-| | | |
+|1 2 3 4 5 6 7 8 9 10 |ort 5 toplam 55 pozitig 10 negatif 0 0 sayisi 0| ort 5 toplam 55 pozitig 10 negatif 0 0 sayisi 0|
+|0 9 0 8 7 -4 3 2 1 -10| ort 1.6 toplam 16 pozitif 6 negatif 2 0 sayisi 2| ort 1.6 toplam 16 pozitif 6 negatif 2 0 sayisi 2|
 
 ## Soru 10: Menü Tabanlı İşlem Programı
 
