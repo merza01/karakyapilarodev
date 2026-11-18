@@ -37,8 +37,8 @@ Her soru için en az 2 test yazın.
 
 | Girdi | Beklenen çıktı | Programın çıktısı |
 |---|---|---|
-| | | |
-| | | |
+|0 |basamak sayisi 1 |basamak sayisi 1 |
+|2356|basamak sayisi 4 |basamak sayisi 4 |
 
 ## Soru 6: Sayıyı Ters Çevirme
 
