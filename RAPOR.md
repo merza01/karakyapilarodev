@@ -58,8 +58,8 @@ Her soru için en az 2 test yazın.
 
 | Girdi | Beklenen çıktı | Programın çıktısı |
 |---|---|---|
-| | | |
-| | | |
+|998 |daha buyuk sayi giriniz |daha buyuk sayi giriniz |
+|2859 |Tebrikler dogru sayiyi buldunuz |Tebrikler dogru sayiyi buldunuz |
 
 ## Soru 9: Sayıların Ortalaması
 
