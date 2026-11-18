@@ -4,16 +4,21 @@ import java.util.Scanner;
 public class Soru05_BasamakSayisi {
 
     public static void main(String[] args) {
-        Scanner scanner = new Scanner(System.in);
+        Scanner sc = new Scanner(System.in);
 
-        // TODO: Girdileri alın
+  System.out.println("Bir sayi giriniz");
+        if (!sc.hasNextInt()) { System.out.println("Lutfen tam sayi giriniz");     
+        return; } 
+        int sayi=sc.nextInt();
+        int basamak = 0;
+        
+        do {
+            sayi = sayi / 10;
+            basamak++; } 
+        while (sayi != 0);{ 
 
-        // TODO: Girdileri kontrol edin (hatalı giriş / sınır durumları)
-
-        // TODO: Karar yapısını ve/veya döngüyü yazın
-
-        // TODO: Sonucu ekrana yazdırın
-
+        System.out.println("Basamak sayisi: " + basamak); }
+        
         scanner.close();
     }
 }
