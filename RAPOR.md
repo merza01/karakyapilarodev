@@ -72,5 +72,5 @@ Her soru için en az 2 test yazın.
 
 | Girdi | Beklenen çıktı | Programın çıktısı |
 |---|---|---|
-| | | |
-| | | |
+|5 |programdan cikiliyor |programdan cikiliyor |
+|3 sonra sayi:3  |sayi tektir |sayi tektir |
