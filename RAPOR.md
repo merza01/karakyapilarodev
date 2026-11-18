@@ -44,8 +44,8 @@ Her soru için en az 2 test yazın.
 
 | Girdi | Beklenen çıktı | Programın çıktısı |
 |---|---|---|
-| | | |
-| | | |
+|32536 |Sayinin tersi: 63523 | Sayinin tersi: 63523|
+|0 | sayinin tersi 0 | sayinin tersi 0 |
 
 ## Soru 7: Asal Sayı Kontrolü
 
