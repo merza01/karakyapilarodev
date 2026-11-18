@@ -4,16 +4,24 @@ import java.util.Scanner;
 public class Soru09_SayilarinOrtalamasi {
 
     public static void main(String[] args) {
-        Scanner scanner = new Scanner(System.in);
+        Scanner sc = new Scanner(System.in);
+        float toplam=0;
+        int pozitif=0;
+        int negatif=0;
+        int notr=0;
+        for (int i=1;i<=10; i++)  { System.out.println(i+". sayiyi giriniz:");
+        float sayi=sc.nextInt();
+        toplam+=sayi;
+            if (sayi==0) { notr++; }
+            if (sayi<0) { negatif++; }
+            if (sayi>0) { pozitif++; }     
+            
+      }
+     float ort=toplam/10;
+     
+        System.out.println("Girdiginiz sayilarin ortalamasi:"+ort+" Girdiginiz pozitif sayi sayisi:"+pozitif+" Negatif sayi sayisi:"+negatif+" 0 girdiginiz sayi sayisi:"+notr);
 
-        // TODO: Girdileri alın
-
-        // TODO: Girdileri kontrol edin (hatalı giriş / sınır durumları)
-
-        // TODO: Karar yapısını ve/veya döngüyü yazın
-
-        // TODO: Sonucu ekrana yazdırın
-
+        
         scanner.close();
     }
 }
