@@ -4,15 +4,25 @@ import java.util.Scanner;
 public class Soru08_TahminOyunu {
 
     public static void main(String[] args) {
-        Scanner scanner = new Scanner(System.in);
+        Scanner sc = new Scanner(System.in);
 
-        // TODO: Girdileri alın
+        
+        int gizlisayi=2859;
+        int tahmin;
+        do {
+            System.out.print("Tahmininizi girin: ");
+           tahmin = sc.nextInt();
 
-        // TODO: Girdileri kontrol edin (hatalı giriş / sınır durumları)
+            if (tahmin < gizlisayi) {
+                System.out.println("Daha buyuk bir sayi girin.");
+            } else if (tahmin > gizlisayi) {
+                System.out.println("Daha kucuk bir sayi girin.");
+            } else {
+                System.out.println("Tebrikler dogru sayiyi buldunuz!");
+            }
 
-        // TODO: Karar yapısını ve/veya döngüyü yazın
+        } while (tahmin!=gizlisayi);  
 
-        // TODO: Sonucu ekrana yazdırın
 
         scanner.close();
     }
