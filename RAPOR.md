@@ -58,8 +58,8 @@ Her soru için en az 2 test yazın.
 
 | Girdi | Beklenen çıktı | Programın çıktısı |
 |---|---|---|
-| | | |
-| | | |
+|1 |asal degil |asal degil |
+|13 |asaldir |asaldir |
 
 ## Soru 9: Sayıların Ortalaması
 
